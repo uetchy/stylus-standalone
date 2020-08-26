@@ -3,12 +3,14 @@
   "version": "0.0.0",
   "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build",
+    "release": "release-it"
   },
   "main": "lib/stylus-standalone.js",
   "browser": "lib/stylus-standalone.js",
   "files": [
-    "lib/*.js"
+    "lib"
   ],
   "dependencies": {
     "cross-fetch": "^3.0.5",
@@ -19,6 +21,8 @@
     "@babel/plugin-transform-runtime": "^7.11.0",
     "@babel/preset-env": "^7.11.0",
     "@babel/runtime-corejs3": "^7.11.2",
+    "@release-it/conventional-changelog": "^1.1.4",
+    "release-it": "^13.7.0",
     "rollup": "^2.26.5",
     "rollup-plugin-analyzer": "^3.3.0",
     "rollup-plugin-babel": "^4.4.0",
