@@ -1,3 +1,5 @@
+package-lock.json
+yarn.lock
 /lib
 
 # Created by https://www.gitignore.io/api/node
