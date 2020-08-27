@@ -6,10 +6,10 @@
 <link
   rel="stylesheet"
   type="text/stylus"
-  href="https://example.com/theme.stylus"
+  href="https://example.com/theme.styl"
 />
 <script
-  src="https://unpkg.com/stylus-standalone"
   type="text/javascript"
+  src="https://unpkg.com/stylus-standalone"
 ></script>
 ```
