@@ -1,7 +1,7 @@
 {
   "name": "stylus-standalone",
   "description": "Standalone stylus transpiler.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
   "scripts": {
     "build": "rollup -c",
